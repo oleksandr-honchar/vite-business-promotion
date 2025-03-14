@@ -1,28 +1,29 @@
 .page-footer {
-  padding: 100px 145px 40px;
   display: flex;
   align-items: baseline;
 }
 
 .footer-container {
+  width: 100%;
 }
 
 .main-footer-part {
   display: flex;
   align-items: baseline;
-  margin-bottom: 16px;
 }
 
 .logo {
 }
 .footer-logo {
+  width: 178px;
+  height: 36px;
   margin-bottom: 18px;
+  margin-right: 146px;
 }
 .social-media {
   display: flex;
   align-items: baseline;
   gap: 16px;
-  margin-right: 172px;
 }
 .list {
 }
@@ -67,17 +68,17 @@
 }
 .knowing {
   position: relative;
-  margin-bottom: 16px;
 }
 .knowing-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.5;
-  min-width: 280px;
+  width: 280px;
   margin-bottom: 30px;
 }
 
 .form-container {
+  max-width: 325px;
 }
 
 .form-label {
@@ -86,11 +87,11 @@
   letter-spacing: 0.04em;
   color: var(--light-slate);
   display: block;
-  margin-bottom: 4px;
 }
 
 .form-input-cont {
   position: relative;
+  margin-bottom: 25px;
 }
 
 .form-input {
@@ -98,7 +99,7 @@
   height: 48px;
   border: 1px solid #bcd0e5;
   border-radius: 4px;
-  padding-left: 38px;
+  padding-left: 42px;
   outline: transparent;
 }
 
@@ -109,6 +110,7 @@
 .form-input::placeholder {
   line-height: 1.75;
   color: #02897a;
+  letter-spacing: 0px;
 }
 
 .footer-btn {
@@ -125,7 +127,6 @@
   border: none;
   min-width: 131px;
   height: 39px;
-  margin-top: 25px;
 }
 .type {
 }
