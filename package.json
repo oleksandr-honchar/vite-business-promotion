@@ -1,11 +1,11 @@
 {
-  "name": "vite-team-project",
+  "name": "vite-business-promotion",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/vite-team-project/",
+    "build": "vite build --base=/vite-business-promotion/",
     "preview": "vite preview"
   },
   "devDependencies": {
