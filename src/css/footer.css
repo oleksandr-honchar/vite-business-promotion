@@ -1,21 +1,143 @@
-.footer {
-  padding: 20px 0;
+.page-footer {
+  padding: 100px 145px 40px;
+  display: flex;
+  align-items: baseline;
 }
-.footer-desc {
-  text-align: center;
+
+.footer-container {
 }
-.footer-link {
+
+.main-footer-part {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 16px;
+}
+
+.logo {
+}
+.footer-logo {
+  margin-bottom: 18px;
+}
+.social-media {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  margin-right: 172px;
+}
+.list {
+}
+.social-media-item {
+}
+.social-list-link {
+}
+.resource {
+  min-width: 118px;
+  height: 205px;
+  margin-right: 129px;
+  margin-bottom: 8px;
+}
+
+.resource-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.resource-list {
+}
+.resource-item {
+  line-height: 2.19;
+  color: #22343d;
+}
+.legal {
+  min-width: 131px;
+  height: 205px;
+  margin-right: 83px;
+  margin-bottom: 8px;
+}
+.legal-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.legal-list {
+}
+.legal-item {
+  line-height: 2.19;
+  color: #22343d;
+}
+.knowing {
+  position: relative;
+  margin-bottom: 16px;
+}
+.knowing-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  min-width: 280px;
+  margin-bottom: 30px;
+}
+
+.form-container {
+}
+
+.form-label {
+  font-size: 12px;
+  line-height: 117%;
+  letter-spacing: 0.04em;
+  color: var(--light-slate);
+  display: block;
+  margin-bottom: 4px;
+}
+
+.form-input-cont {
   position: relative;
 }
-.footer-link::before {
-  content: '';
+
+.form-input {
+  width: 100%;
+  height: 48px;
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+  padding-left: 38px;
+  outline: transparent;
+}
+
+.form-input:focus {
+  border-color: #02897a;
+}
+
+.form-input::placeholder {
+  line-height: 1.75;
+  color: #02897a;
+}
+
+.footer-btn {
   position: absolute;
-  bottom: 6%;
-  left: 50%;
-  transform: translateX(-50%) skewX(-12deg);
-  z-index: -1;
-  width: 110%;
-  height: 24%;
-  background-color: #41d1ff;
-  transition: 200ms ease;
+  left: 0;
+  top: 100;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  display: block;
+  margin: auto;
+  background-color: #02897a;
+  border-radius: 4px;
+  border: none;
+  min-width: 131px;
+  height: 39px;
+  margin-top: 25px;
+}
+.type {
+}
+.love {
+  line-height: 1.88;
+  text-align: center;
+}
+
+.phone-icon {
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  pointer-events: none;
+  fill: #02897a;
 }
