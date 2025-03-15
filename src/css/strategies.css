@@ -1,0 +1,30 @@
+.strategies-section {
+  padding-top: 100px 145px 171px;
+}
+
+.strategies-container {
+  margin: 0 auto;
+}
+
+.strategies-title {
+  font-weight: 700;
+  font-size: 34px;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-bottom: 10px;
+}
+.strategies-text {
+  font-weight: 500;
+  line-height: 1.63;
+  margin-bottom: 40px;
+  min-width: 465px;
+}
+.strategies-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.strategies-list-item {
+  width: calc(round((100% - 60px) / 3));
+  height: calc(350px);
+}

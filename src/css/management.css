@@ -1,0 +1,31 @@
+.management-section {
+}
+
+.management-container {
+  margin: 50px, 145px;
+  display: flex;
+  margin: 0 auto;
+  gap: 84px;
+}
+.text-section {
+  max-width: 486px;
+  padding-top: 97px;
+}
+.management-pretitle {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.management-title {
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+.management-subtitle {
+  font-weight: 600;
+  line-height: 1.63;
+}
+.management-text {
+  line-height: 1.63;
+  margin-bottom: 25px;
+}

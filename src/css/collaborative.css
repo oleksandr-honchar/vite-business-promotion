@@ -1,0 +1,29 @@
+.collaborative {
+}
+.section {
+}
+
+.colaborative-container {
+  margin: 50px, 145px;
+  display: flex;
+  margin: 0 auto;
+  gap: 84px;
+}
+
+.collaborative-pretitle {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.collaborative-title {
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+.collaborative-text {
+  line-height: 1.63;
+  margin-bottom: 25px;
+}
+.collaborative-subtitle {
+  font-weight: 600;
+  line-height: 1.63;
+}

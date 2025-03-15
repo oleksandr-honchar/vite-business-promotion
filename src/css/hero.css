@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: center;
   gap: 35px;
+  margin: 0 auto;
 }
 
 .hero-text-group {
