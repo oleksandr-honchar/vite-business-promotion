@@ -55,7 +55,7 @@
 
 .header-btn:hover,
 .header-btn:focus {
-  background-color: red;
+  background-color: #02897a;
   color: #fff;
   border-color: transparent;
 }
